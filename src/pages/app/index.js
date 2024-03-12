@@ -1,1 +1,0 @@
-export{default as AdminD} from "./admin/mainAdmin/dashboard"
