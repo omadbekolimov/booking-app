@@ -1,1 +1,8 @@
-export{default as Dashboard} from "./dashboard"
+import React from 'react'
+
+export const MainAdmin = () => {
+  return (
+    <div>hello world</div>
+  )
+}
+
