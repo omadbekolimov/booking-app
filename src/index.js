@@ -7,11 +7,12 @@ import { MainAdmin } from "./pages/app/admin/mainAdmin/index.jsx";
 import "./index.css";
 import App from "./app";
 import { MainHotelDashboard } from "./pages/main-hotel-dashboard";
+import Login from "./pages/auth/login.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
 	<BrowserRouter>
-		<MainAdmin />
+		<Login />
 	</BrowserRouter>
 );
