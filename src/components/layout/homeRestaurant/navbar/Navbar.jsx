@@ -1,8 +1,13 @@
 import React from 'react'
+import { styles } from '../../../../util/style'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <>
+      <header className={`${styles} bg-white`}>
+        <h1>HFfinder</h1>
+      </header>
+    </>
   )
 }
 

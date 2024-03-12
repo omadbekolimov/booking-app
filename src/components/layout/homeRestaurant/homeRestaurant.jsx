@@ -1,8 +1,11 @@
 import 'react-lazy-load-image-component/src/effects/blur.css';
+import Navbar from './navbar/Navbar';
 
 const HomeRestaurant = () => {
   return (
-    <div>HomeRestaurant</div>
+    <>
+      <Navbar />
+    </>
   )
 }
 
