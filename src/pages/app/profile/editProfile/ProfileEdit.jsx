@@ -2,7 +2,7 @@ import React from "react";
 import pencil from "../../../../assets/images/Component 42.png";
 import userImg from "../../../../assets/images/Breezeicons-actions-22-im-user.svg.png";
 
-export const EditProfile = () => {
+const ProfileEdit = () => {
 	return (
 		<div className="flex flex-col">
 			<div className="flex justify-end p-5">
@@ -41,3 +41,4 @@ export const EditProfile = () => {
 		</div>
 	);
 };
+export default ProfileEdit;
