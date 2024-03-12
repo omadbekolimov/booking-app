@@ -1,8 +1,11 @@
 import React from 'react'
+import HotelMain from '../../../main-hotel-page'
 
 export const MainAdmin = () => {
   return (
-    <div>hello world</div>
+    <div>
+      <HotelMain/>
+    </div>
   )
 }
 
