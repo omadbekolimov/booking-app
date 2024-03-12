@@ -4,9 +4,16 @@ import { styles } from '../../../../util/style'
 const Navbar = () => {
   return (
     <>
-      <header className={`${styles} bg-white`}>
-        <h1>HFfinder</h1>
-      </header>
+      <section className='w-full bg-black'>
+        <header className={`${styles.container} py-8 flex justify-around`}>
+          <h1 className='text-white text-3xl'>HFfinder</h1>
+          <nav className='w-full'>
+            <ul className='flex '>
+              <li></li>
+            </ul>
+          </nav>
+        </header>
+      </section>
     </>
   )
 }
