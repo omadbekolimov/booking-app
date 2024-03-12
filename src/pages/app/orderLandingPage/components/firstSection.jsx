@@ -8,9 +8,9 @@ const FirstSection = () => {
                 <h1 className='text-[2.7rem] leading-[3rem] font-bold tracking-wide'>
                     Online Hospitality <br /> facility finder system <br /> a right place.
                 </h1>
-                <p className='mt-7 w-[80%] leading-5'>
+                <p className='mt-7 w-[70%] leading-5 opacity-80'>
                     In case you want to access the near by hospitality facilities services this is the  right place for you.
-                    </p>
+                </p>
                 <h5>want nearby facilities on the map? click below</h5>
                 <Button name={"View on map"} />
             </div>
