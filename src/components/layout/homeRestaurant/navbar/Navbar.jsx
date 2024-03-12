@@ -1,5 +1,6 @@
 import React from 'react'
 import { styles } from '../../../../util/style'
+import { FaHome } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -9,7 +10,9 @@ const Navbar = () => {
           <h1 className='text-white text-3xl'>HFfinder</h1>
           <nav className='w-full'>
             <ul className='flex '>
-              <li></li>
+              <li>
+              <FaHome />
+              </li>
             </ul>
           </nav>
         </header>
