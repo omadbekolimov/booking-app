@@ -1,1 +1,1 @@
-export{default as AdminD} from "./admin/dashboard"
+export{default as AdminD} from "./admin/mainAdmin/dashboard"

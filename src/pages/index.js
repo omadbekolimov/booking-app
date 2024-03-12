@@ -1,2 +1,7 @@
-export * as App from './app';
-export * as Auth from './auth';
+const App = require('./app');
+const Auth = require('./auth');
+
+module.exports = {
+  App,
+  Auth
+};
