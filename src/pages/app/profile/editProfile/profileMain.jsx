@@ -1,7 +1,7 @@
 import Navbar from "../../../../components/layout/homeRestaurant/navbar/Navbar";
 import ProfileEdit from "./ProfileEdit";
 
-const Main = () => {
+const ProfileMain = () => {
 	return (
 		<div>
 			<Navbar />
@@ -10,4 +10,4 @@ const Main = () => {
 	);
 };
 
-export default Main;
+export default ProfileMain;

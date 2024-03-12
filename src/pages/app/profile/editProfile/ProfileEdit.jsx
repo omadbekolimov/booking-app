@@ -34,7 +34,9 @@ const ProfileEdit = () => {
 							<p className="text-3xl">User profile image</p>
 							<input type="file" className="bg-[#F46A06]" />
 						</div>
-						<button className="bg-[#F46A06] px-10 py-3 mb-5">Update your account</button>
+						<button type="submit" className="bg-[#F46A06] px-5 py-3 mb-5">
+							Update your account
+						</button>
 					</div>
 				</div>
 			</div>
