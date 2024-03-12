@@ -9,6 +9,10 @@ import "./index.css";
 import App from "./app";
 import { MainHotelDashboard } from "./pages/main-hotel-dashboard";
 
+import ReactDOM  from "react-dom/client";
+import App from "./app";
+import { BrowserRouter } from "react-router-dom";
+import "./assets/style.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -17,7 +21,3 @@ root.render(
 		<App />
 	</BrowserRouter>
 );
-//   <React.StrictMode>
-//     <MainHotelDashboard />
-//   </React.StrictMode>
-//   )
