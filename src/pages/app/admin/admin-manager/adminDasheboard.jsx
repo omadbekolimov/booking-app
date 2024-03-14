@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import userIcon from "../../../../assets/images/Component 5.png";
 import logo from "../../../../assets/images/HFfinder.png";
 import itemLIst from "../../../../assets/images/clarity_list-line.png";
@@ -10,7 +10,7 @@ import Order_LIst from "./Order_list";
 import customer from "./customer";
 import { Link } from "react-router-dom";
 
-const AdminDasheboard = () => {
+const AdminDasheboard = ({ activeClass, activeClassCus }) => {
 	return (
 		<>
 			<div className=""></div>
@@ -41,15 +41,19 @@ const AdminDasheboard = () => {
 					<div className="flex items-center  gap-2 p-2 rounded-xl hover:bg-[#ccc] hover:cursor-pointer select-none">
 						<img src={itemLIst} alt="" /> <h1 className="font-bold text-l ml-3">Item list</h1>
 					</div>
-					<Link to="/restaran-managment">
-						<div className="flex items-center  gap-2 p-2 rounded-xl hover:bg-[#ccc] hover:cursor-pointer select-none">
+					<Link to="/order-list">
+						<div
+							className={`${activeClass} flex items-center gap-2 p-2 rounded-xl hover:bg-[#ccc] hover:cursor-pointer select-none`}
+						>
 							<img src={orderList} alt="" />
 							<h1 className="font-bold text-l ml-3">Order list</h1>
 						</div>
 					</Link>
 				</div>
 				<Link to="/customer">
-					<div className="flex items-center  gap-2 p-2 rounded-xl hover:bg-[#ccc] hover:cursor-pointer select-none">
+					<div
+						className={`${activeClassCus} flex items-center  gap-2 p-2 rounded-xl hover:bg-[#ccc] hover:cursor-pointer select-none`}
+					>
 						<img src={customers} alt="" />
 						<p className="text-l font-bold ml-2">Customers</p>
 					</div>

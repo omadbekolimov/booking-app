@@ -6,7 +6,7 @@ import Customer from "./customer";
 function MainDashboard() {
 	return (
 		<div className="flex w-full h-full bg-[#F46A06] px-4 py-4">
-			<AdminDasheboard />
+			<AdminDasheboard activeClass={`bg-[#ccc]`} />
 			<Order_LIst />
 		</div>
 	);

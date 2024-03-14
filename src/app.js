@@ -6,8 +6,8 @@ import OrderLanding from "./pages/app/orderLandingPage";
 import Login from "./pages/auth/login";
 import AdminDasheboard from "./pages/app/admin/admin-manager/adminDasheboard";
 import MainDashboard from "./pages/app/admin/admin-manager";
-import { Customer } from './pages/app/admin/admin-manager/customer';
-import MainCustomer from './pages/app/admin/admin-manager/index1';
+import { Customer } from "./pages/app/admin/admin-manager/customer";
+import MainCustomer from "./pages/app/admin/admin-manager/index1";
 
 const App = () => {
 	return (
@@ -16,7 +16,7 @@ const App = () => {
 			<Route path="/home" Component={HomeRestaurant} />
 			<Route path="/order-landing page" Component={OrderLanding} />
 			<Route path="/loginSignUp" Component={Login} />
-			<Route path="/restaran-managment" Component={MainDashboard} />
+			<Route path="/order-list" Component={MainDashboard} />
 			<Route path="/customer" Component={MainCustomer} />
 		</Routes>
 	);

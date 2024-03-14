@@ -3,6 +3,48 @@ import AdminDasheboard from "./adminDasheboard";
 import home from "../../../../assets/images/Vector (1).png";
 import line from "../../../../assets/images/Line 10.png";
 
+const castTasble = [
+	{
+		id: 1,
+		phone: "+998907748674",
+		name: "Byiringiro Moise",
+		total: "6000Rwf",
+		last: "3000Rwf",
+		send: "...",
+	},
+	{
+		id: 2,
+		phone: "+998907748674",
+		name: "Byiringiro Moise",
+		total: "6000Rwf",
+		last: "3000Rwf",
+		send: "...",
+	},
+	{
+		id: 3,
+		phone: "+998907748674",
+		name: "Byiringiro Moise",
+		total: "6000Rwf",
+		last: "3000Rwf",
+		send: "...",
+	},
+	{
+		id: 4,
+		phone: "+998907748674",
+		name: "Byiringiro Moise",
+		total: "6000Rwf",
+		last: "3000Rwf",
+		send: "...",
+	},
+	{
+		id: 5,
+		phone: "+998907748674",
+		name: "Byiringiro Moise",
+		total: "6000Rwf",
+		last: "3000Rwf",
+		send: "...",
+	},
+];
 export const Customer = () => {
 	return (
 		<div className="w-full">
@@ -31,38 +73,16 @@ export const Customer = () => {
 								<th>Last order</th>
 								<th></th>
 							</tr>
-							<tr>
-								<td className="p-4">#2</td>
-								<td>+250781850774</td>
-								<td>Byiringiro Moise</td>
-								<td>6000Rwf</td>
-								<td>3000Rwf</td>
-								<td>...</td>
-							</tr>
-							<tr>
-								<td className="p-4">#2</td>
-								<td>+250781850774</td>
-								<td>Byiringiro Moise</td>
-								<td>6000Rwf</td>
-								<td>3000Rwf</td>
-								<td>...</td>
-							</tr>
-							<tr>
-								<td className="p-4">#2</td>
-								<td>+250781850774</td>
-								<td>Byiringiro Moise</td>
-								<td>6000Rwf</td>
-								<td>3000Rwf</td>
-								<td>...</td>
-							</tr>
-							<tr>
-								<td className="p-4">#2</td>
-								<td>+250781850774</td>
-								<td>Byiringiro Moise</td>
-								<td>6000Rwf</td>
-								<td>3000Rwf</td>
-								<td>...</td>
-							</tr>
+							{castTasble.map((item, i) => (
+								<tr key={item.id}>
+									<td className="p-4">{item.id}</td>
+									<td>{item.phone}</td>
+									<td>{item.name}</td>
+									<td>{item.total}</td>
+									<td>{item.last}</td>
+									<td>{item.send}</td>
+								</tr>
+							))}
 						</table>
 						<div className="py-3">
 							<button className="bg-orange-500 rounded-md w-32 h-10 text-white font-bold">
